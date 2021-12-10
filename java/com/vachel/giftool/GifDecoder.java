@@ -490,6 +490,7 @@ public class GifDecoder {
                     break;
 
                 case 0x3b://标识GIF文件结束，固定值0x3B
+                case -1:
                     done = true;
                     break;
 

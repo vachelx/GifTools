@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 
-public class ImageUtil {
+public class GifUtil {
 
 	public static boolean isGif(String str) {
 		return isEndWid(str, "gif");
